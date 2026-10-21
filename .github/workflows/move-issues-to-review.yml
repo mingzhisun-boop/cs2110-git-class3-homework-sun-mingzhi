@@ -3,7 +3,7 @@ name: Move Linked Issues to In Review
 
 on:
   pull_request:
-    types: [opened]
+    types: [opened, edited]
 
 permissions:
   contents: read
